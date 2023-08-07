@@ -1,6 +1,6 @@
 @import url("./blocks/header/header.css");
 @import url("./blocks/header/header__nav/header__nav.css");
-@import url("./blocks/header/header__nav/header__nav-menu/header__nav-menu.css");
+@import url("./blocks/header/header__nav-menu/header__nav-menu.css");
 @import url("./blocks/header/header__logo/header__logo.css");
 @import url("./blocks/header/header__nav-menu-link/header__nav-menu-link.css");
 @import url("./blocks/header/header__nav-buttons/header__nav-buttons.css");
