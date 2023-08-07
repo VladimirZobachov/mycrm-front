@@ -1,0 +1,6 @@
+.header__header-table-element{
+    background-image: url("../../images/sort_icon.svg");
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    height: 16px;
+}

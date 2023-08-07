@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans';
+}
+.header{
+    display: flex;
+    width: 100%;
+    min-height: 65px;
+    padding-top: 20px;
+    flex-shrink: 0;
+    background: var(--top-panel, linear-gradient(180deg, #F8FCFF 0%, #F0F1F1 55.73%, #DEE8EE 100%));
+
+}

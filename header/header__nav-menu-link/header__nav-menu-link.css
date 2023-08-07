@@ -1,0 +1,19 @@
+.header__nav-menu-link{
+    text-decoration: none;
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #3E3D3D;
+}
+.header__nav-menu-link:hover{
+    color: #2F80ED;
+    font-weight: 700;
+    border-bottom: #2F80ED solid 3px;
+}
+.header__nav-menu-link_active{
+    color: #2F80ED;
+    font-weight: 700;
+    border-bottom: #2F80ED solid 3px;
+}

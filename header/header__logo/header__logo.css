@@ -1,0 +1,12 @@
+.header__logo{
+    color: #909AA9;
+    min-width: 200px;
+    font-family: 'Noto Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 218;
+    line-height: normal;
+    text-decoration: none;
+    align-self: center;
+    margin-left: 50px;
+}

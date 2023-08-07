@@ -1,0 +1,17 @@
+.main__header-table-list{
+    display: flex;
+    min-height: 70px;
+    max-width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-between;  
+    list-style: none;
+    padding: 0;
+    color: var(--dark, #3E3D3D);
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    border-bottom: 2px solid var(--table-header-stroke, #9CC6FF);
+}

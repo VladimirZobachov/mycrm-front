@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('noto/NotoSans-Light.ttf') format('truetype')
+    /* Add more formats if you have them */
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('noto/NotoSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  /* Add more formats if you have them */
+}

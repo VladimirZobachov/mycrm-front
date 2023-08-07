@@ -1,0 +1,7 @@
+.header__nav-auth-buttons{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 23px;
+}
