@@ -1,0 +1,10 @@
+.main__table-row-edit-button{
+    display: flex;
+    background-image: url("../../../assets/images/edit_button.svg");
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+.main__table-row-edit-button:hover{
+    background-image: url("../../../assets/images/edit_button_hover.svg");
+}
