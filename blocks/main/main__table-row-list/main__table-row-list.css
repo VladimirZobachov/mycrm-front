@@ -1,17 +1,18 @@
 .main__table-row-list{
-    display: flex;
-    min-height: 70px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap:10;
+    min-height: 100px;
     max-width: 95%;
     margin: 0 auto;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     justify-content:space-between;  
     list-style: none;
-    padding: 0;
+    padding: 15px 0;
     color: var(--dark, #3E3D3D);
     font-family: "Noto Sans";
     font-size: 14px;
-    font-weight: bold;
     line-height: normal;
-    border-bottom: 2px solid var(--table-header-stroke, #9CC6FF);
+    border-bottom: 2px solid var(--table-header-stroke, #D7DEE3);
 }

@@ -1,5 +1,7 @@
 .main__table-header-list{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap:10;
     min-height: 70px;
     max-width: 95%;
     margin: 0 auto;
@@ -14,4 +16,18 @@
     font-weight: bold;
     line-height: normal;
     border-bottom: 2px solid var(--table-header-stroke, #9CC6FF);
+}
+
+@media (max-width: 1280px) {
+/* Adjust the layout for 1280px width */
+    .main__table-header-list {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+/* Adjust the layout for 768px width */
+    .main__table-header-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
