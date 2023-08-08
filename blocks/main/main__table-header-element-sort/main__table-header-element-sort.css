@@ -1,0 +1,7 @@
+.main__table-header-element-sort{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    background-image: url("../../../assets/images/sort_icon.svg");
+    cursor: pointer;
+}
