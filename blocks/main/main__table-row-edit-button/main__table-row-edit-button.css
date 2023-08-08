@@ -4,6 +4,7 @@
     width: 23px;
     height: 23px;
     cursor: pointer;
+    margin: 0 5px;
 }
 .main__table-row-edit-button:hover{
     background-image: url("../../../assets/images/edit_button_hover.svg");

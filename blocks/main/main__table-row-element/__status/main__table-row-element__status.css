@@ -1,0 +1,19 @@
+.main__table-row-element__status{
+    display: flex;
+    width: 90px;
+    padding: 6px 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    background: #8DE3FF;
+    color: #027CA3;
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-image: url("../../../../assets/images/status_icon.svg");
+    background-repeat: no-repeat;
+    background-position: 90px;
+    cursor: pointer;
+}

@@ -15,8 +15,9 @@
 @import url("./blocks/main/main__table-row-element/main__table-row-element.css");
 @import url("./blocks/main/main__table-row-element/__importance/main__table-row-element__importance.css");
 @import url("./blocks/main/main__table-row-element/__photo/main__table-row-element__photo.css");
-@import url("./blocks/main/main__table-row-title/main__table-row-title.css");
+@import url("./blocks/main/main__table-row-element/__status/main__table-row-element__status.css");
 @import url("./blocks/main/main__table-row-edit-button/main__table-row-edit-button.css");
+@import url("./blocks/main/main__table-row-title/main__table-row-title.css");
 @import url("./blocks/main/main__table-row-date-create/main__table-row-date-create.css");
 @import url("./blocks/main/main__table-row-time-create/main__table-row-time-create.css");
 @import url("./blocks/main/main__table-row-element-number/main__table-row-element-number.css");
