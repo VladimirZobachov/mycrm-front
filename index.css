@@ -13,6 +13,7 @@
 @import url("./blocks/main/main__table-header-element/main__table-header-element.css");
 @import url("./blocks/main/main__table-header-element-sort/main__table-header-element-sort.css");
 @import url("./blocks/main/main__table-row-element/main__table-row-element.css");
+@import url("./blocks/main/main__table-row-title/main__table-row-title.css");
 @import url("./blocks/main/main__table-row-edit-button/main__table-row-edit-button.css");
 @import url("./blocks/main/main__table-row-date-create/main__table-row-date-create.css");
 @import url("./blocks/main/main__table-row-time-create/main__table-row-time-create.css");
