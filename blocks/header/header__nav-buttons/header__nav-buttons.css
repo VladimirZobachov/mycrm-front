@@ -9,3 +9,9 @@
     gap: 23px;
     align-items: center;
 }
+
+@media (max-width: 628px) {
+    .header__nav-buttons{
+        margin: 0;
+    }
+}

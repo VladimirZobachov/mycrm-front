@@ -7,13 +7,24 @@
     align-self: center;
     justify-content: space-evenly;
 }
-@media (max-width: 320px) {
+
+@media (max-width: 1024px) {
     /* Adjust the layout for 768px width */
-        .header__nav {
-            grid-template-areas:
-            'header-logo' 
-            'header-nav-menu'
-            'header-nav-buttons' 
-            'header-nav-auth-buttons';
-        }
+    .header__nav {
+        grid-template-areas:
+        'header-logo header-nav-auth-buttons ' 
+        'header-nav-menu header-nav-buttons ';
     }
+}
+
+@media (max-width: 628px) {
+    /* Adjust the layout for 320x width */
+    .header__nav {
+        grid-template-areas:
+        'header-logo'
+        'header-nav-auth-buttons'
+        'header-nav-buttons'
+        'header-nav-menu' ;
+    }
+}
+

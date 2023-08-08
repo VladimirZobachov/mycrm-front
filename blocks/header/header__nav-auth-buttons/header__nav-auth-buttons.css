@@ -6,3 +6,10 @@
     align-items: center;
     gap: 23px;
 }
+
+@media (max-width: 628px) {
+    .header__nav-auth-buttons{
+        padding: 0;
+        margin: 0;
+    }
+}
