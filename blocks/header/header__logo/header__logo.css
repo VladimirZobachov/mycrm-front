@@ -1,4 +1,6 @@
 .header__logo{
+    display: grid;
+    grid-area: header-logo;
     color: #909AA9;
     min-width: 200px;
     font-family: 'Noto Sans';
@@ -8,5 +10,4 @@
     line-height: normal;
     text-decoration: none;
     align-self: center;
-    margin-left: 50px;
 }

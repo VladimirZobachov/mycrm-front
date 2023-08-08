@@ -1,5 +1,6 @@
 .header__nav-menu{
     display: flex;
+    grid-area: header-nav-menu;
     flex-direction: row;
     list-style: none;
     min-width: 320px;

@@ -1,5 +1,6 @@
 .header__nav-auth-buttons{
     display: flex;
+    grid-area: header-nav-auth-buttons;
     flex-direction: row;
     list-style: none;
     align-items: center;

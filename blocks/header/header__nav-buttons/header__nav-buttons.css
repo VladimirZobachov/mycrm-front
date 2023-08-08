@@ -1,5 +1,6 @@
 .header__nav-buttons{
     display: flex;
+    grid-area: header-nav-buttons;
     height: 36px;
     flex-direction: row;
     list-style: none;

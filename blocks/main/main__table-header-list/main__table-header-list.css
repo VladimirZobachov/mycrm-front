@@ -29,3 +29,10 @@
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
+@media (max-width: 320px) {
+    /* Adjust the layout for 320px width */
+    .main__table-header-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

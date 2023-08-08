@@ -1,9 +1,19 @@
 .header__nav{
-    display: flex;
+    display: grid;
     width: 100%;
-    flex-direction: row;
+    grid-template-areas: 
+    'header-logo header-nav-menu header-nav-buttons header-nav-auth-buttons';
     align-items: end;
     align-self: center;
     justify-content: space-evenly;
-    margin-left: 46px;
 }
+@media (max-width: 320px) {
+    /* Adjust the layout for 768px width */
+        .header__nav {
+            grid-template-areas:
+            'header-logo' 
+            'header-nav-menu'
+            'header-nav-buttons' 
+            'header-nav-auth-buttons';
+        }
+    }
