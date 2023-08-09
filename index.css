@@ -21,4 +21,16 @@
 @import url("./blocks/main/main__table-row-date-create/main__table-row-date-create.css");
 @import url("./blocks/main/main__table-row-time-create/main__table-row-time-create.css");
 @import url("./blocks/main/main__table-row-element-number/main__table-row-element-number.css");
+@import url("./blocks/main/main__table-header-element/__number/main__table-header-element__number.css");
+@import url("./blocks/main/main__table-header-element/__date/main__table-header-element__date.css");
+@import url("./blocks/main/main__table-header-element/__type-work/main__table-header-element__type-work.css");
+@import url("./blocks/main/main__table-header-element/__important/main__table-header-element__important.css");
+@import url("./blocks/main/main__table-header-element/__brand/main__table-header-element__brand.css");
+@import url("./blocks/main/main__table-header-element/__where-print/main__table-header-element__where-print.css");
+@import url("./blocks/main/main__table-header-element/__photo/main__table-header-element__photo.css");
+@import url("./blocks/main/main__table-header-element/__manager/main__table-header-element__manager.css");
+@import url("./blocks/main/main__table-header-element/__worker/main__table-header-element__worker.css");
+@import url("./blocks/main/main__table-header-element/__price/main__table-header-element__price.css");
+@import url("./blocks/main/main__table-header-element/__status/main__table-header-element__status.css");
+@import url("./blocks/main/main__table-header-element/__comments/main__table-header-element__comments.css");
 @import url("./assets/fonts/noto_sans.css");
