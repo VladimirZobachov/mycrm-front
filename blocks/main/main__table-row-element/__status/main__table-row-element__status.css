@@ -1,5 +1,6 @@
 .main__table-row-element__status{
     display: flex;
+    grid-area: data-status;
     width: 90px;
     padding: 6px 10px;
     justify-content: space-between;

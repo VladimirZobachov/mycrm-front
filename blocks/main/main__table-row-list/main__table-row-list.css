@@ -1,6 +1,8 @@
 .main__table-row-list{
     display: grid;
     grid-template-columns: 23px 45px 95px 150px 100px 100px 90px 70px 105px 105px 90px 110px 140px;
+    grid-template-areas: 
+    'data-empty data-number data-date data-type-work data-important data-brand data-where-print data-photo data-manager data-worker data-price data-status data-comments';
     min-height: 100px;
     max-width: 95%;
     margin: 0 auto;
@@ -32,6 +34,9 @@
 /* Adjust the layout for 768px width */
     .main__table-row-list {
         grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        'data-photo data-date data-important data-price data-manager data-status' 
+        'data-number data-brand data-type-work data-where-print data-worker data-comments';
     }
 }
 

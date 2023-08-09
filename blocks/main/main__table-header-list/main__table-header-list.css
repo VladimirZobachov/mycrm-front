@@ -35,6 +35,14 @@
     }
 }
 
+@media (max-width: 628px) {
+    /* Adjust the layout for 320px width */
+    .main__table-header-list {
+        min-height: 5px;
+        border-bottom: none;
+    }
+}
+
 @media (max-width: 320px) {
     /* Adjust the layout for 320px width */
     .main__table-header-list {
