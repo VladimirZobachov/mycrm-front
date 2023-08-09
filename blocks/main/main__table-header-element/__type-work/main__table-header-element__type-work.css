@@ -1,3 +1,9 @@
 .main__table-header-element__type-work{
     grid-area: type-work;
 }
+
+@media (max-width:560px){
+    .main__table-header-element__type-work{
+        display: none;
+    }
+}

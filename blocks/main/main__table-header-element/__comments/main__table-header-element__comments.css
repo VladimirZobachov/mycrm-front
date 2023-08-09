@@ -1,3 +1,9 @@
 .main__table-header-element__comments{
     grid-area: comments;
 }
+
+@media (max-width:560px){
+    .main__table-header-element__comments{
+        display: none;
+    }
+}

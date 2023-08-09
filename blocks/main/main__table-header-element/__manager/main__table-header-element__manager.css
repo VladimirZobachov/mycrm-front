@@ -1,3 +1,9 @@
 .main__table-header-element__manager{
     grid-area: manager;
 }
+
+@media (max-width:560px){
+    .main__table-header-element__manager{
+        display: none;
+    }
+}

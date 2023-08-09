@@ -1,3 +1,9 @@
 .main__table-header-element__worker{
     grid-area: worker;
 }
+
+@media (max-width:560px){
+    .main__table-header-element__worker{
+        display: none;
+    }
+}

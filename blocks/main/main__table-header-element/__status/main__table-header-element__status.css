@@ -1,3 +1,9 @@
 .main__table-header-element__status{
     grid-area: status;
 }
+
+@media (max-width:560px){
+    .main__table-header-element__status{
+        display: none;
+    }
+}

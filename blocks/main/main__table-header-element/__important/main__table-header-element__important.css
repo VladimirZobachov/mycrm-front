@@ -1,3 +1,9 @@
 .main__table-header-element__important{
     grid-area: important;
 }
+
+@media (max-width:560px){
+    .main__table-header-element__important{
+        display: none;
+    }
+}
