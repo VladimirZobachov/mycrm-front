@@ -30,7 +30,7 @@
     .main__table-header-list {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 
-        'photo date important price manager status' 
+        'empty photo date important price manager status' 
         'number brand type-work where-print worker comments';
     }
 }

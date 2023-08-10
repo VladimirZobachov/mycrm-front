@@ -35,8 +35,9 @@
     .main__table-row-list {
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: 
-        'data-photo data-date data-important data-price data-manager data-status' 
-        'data-number data-brand data-type-work data-where-print data-worker data-comments';
+        'data-photo data-date data-important data-price' 
+        'data-manager data-status data-number data-brand' 
+        'data-type-work data-where-print data-worker data-comments';
     }
 }
 
