@@ -36,6 +36,7 @@
 @import url("./blocks/main/main__table-row-element/__empty/main__table-row-element__empty.css");
 @import url("./blocks/main/main__table-row-element/__number/main__table-row-element__number.css");
 @import url("./blocks/main/main__table-row-element/__date/main__table-row-element__date.css");
+@import url("./blocks/main/main__table-row-element/__type-work/main__table-row-element__type-work.css");
 @import url("./blocks/main/main__table-row-element/__importance/main__table-row-element__importance.css");
 @import url("./blocks/main/main__table-row-element/__brand/main__table-row-element__brand.css");
 @import url("./blocks/main/main__table-row-element/__where-print/main__table-row-element__where-print.css");
